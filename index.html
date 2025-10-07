@@ -1,31 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+  <title>homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="/script.js" defer></script>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Staatliches", cursive;
+    }
+    .w3-row-padding img {
+      margin-bottom: 0px;
+    }
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+      width: 0px;
+      background: #222;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+      margin-left: -50px;
+      margin-right: -50px;
+    }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+      #main {
+        margin-left: 0;
+      }
+    }
+  </style>
+  <body class="w3-black">
+    <!-- Navbar -->
+    <div class="w3-top">
+      <div class="w3-bar w3-black w3-card">
+        <a
+          class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right"
+          href="javascript:void(0)"
+          onclick="myFunction()"
+          title="Toggle Navigation Menu"
+          ><i class="fa fa-bars"></i
+        ></a>
+        <a
+          href="https://kaylafinalhomepage.glitch.me"
+          class="w3-bar-item w3-button w3-padding-large"
+          >HOME</a
+        >
+        <a
+          href="https://calendarpage.glitch.me"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >NEWS</a
+        >
+        <a
+          href="https://newsdirectoreka8u-.glitch.me"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >EVENTS</a
+        >
+        <a
+          href="#contact"
+          class="w3-bar-item w3-button w3-padding-large w3-hide-small"
+          >CONTACT</a
+        >
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">
+            MORE <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="https://88nightmarket.com/" class="w3-bar-item w3-button">Merchandise</a>
+            <a href="https://www.youtube.com/channel/UCZW5lIUz93q_aZIkJPAC0IQ" class="w3-bar-item w3-button">Extras</a>
+            <a href="https://twitter.com/88rising?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" class="w3-bar-item w3-button">Media</a>
+          </div>
+        </div>
+        <a
+          href="javascript:void(0)"
+          class="w3-padding-large w3-hover-red w3-hide-small w3-right"
+          ><i class="fa fa-search"></i
+        ></a>
+      </div>
+    </div>
 
-    <title>landingpage</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
-    
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
-  </head>  
-  <body>
-    <div class="main">
-      <img class="w3-animate-opacity" src="https://cdn.glitch.com/44050001-b1de-4981-beb4-0f209c637d58%2FUntitled-2.png?v=1614117018402">
-      <div class="circle">
-        
-        <h1>In Praise of
-          <br>Shadows</a></h1></div>
-  </div>
+    <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+    <div
+      id="navDemo"
+      class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top"
+      style="margin-top:46px"
+    >
+      <a
+        href="#band"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >BAND</a
+      >
+      <a
+        href="#tour"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >TOUR</a
+      >
+      <a
+        href="#contact"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >CONTACT</a
+      >
+      <a
+        href="#"
+        class="w3-bar-item w3-button w3-padding-large"
+        onclick="myFunction()"
+        >MERCH</a
+      >
+    </div>
 
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+      <!-- Header/Home -->
+      <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+        <h1 class="w3-jumbo"><span class="w3-hide-small">⬆</span> 88</h1>
+        <img
+          src="https://thematter.co/wp-content/uploads/2019/12/ARTIST_LINEUP_NO_SMOKING_CONDENSED.jpg"
+          alt="boy"
+          class="w3-image"
+          width="2400"
+          height="1108"
+        />
+        <h3>88</h3>
+        <h4>⬆</h4>
+        <h5>88</h5>
+        <h6>⬆</h6>
+        <h7>88</h7><h8>⬆</h8><h9>88</h9>
+        <h10>88</h10>
+      </header>
+    </div>
+    <br /><br /><br /><br /><br /><br /><br /><br />
+    <!-- Contact Section -->
+    <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+      <h2 class="w3-text-light-grey">CONTACT US</h2>
+      <hr style="width:200px" class="w3-opacity" />
+      <div class="w3-section">
+        <p>New York City, US</p>
+        <p>Email: 88rising@gmail.com</p>
+      </div>
+      <br />
+      <br />
+      <form action="/action_page.php" target="_blank">
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Name"
+            required
+            name="Name"
+          />
+        </p>
+        <br />
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Email"
+            required
+            name="Email"
+          />
+        </p>
+        <br />
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Subject"
+            required
+            name="Subject"
+          />
+        </p>
+        <br />
+        <p>
+          <input
+            class="w3-input w3-padding-16"
+            type="text"
+            placeholder="Message"
+            required
+            name="Message"
+          />
+        </p>
+        <br />
+        <p>
+          <button
+            class="w3-button w3-light-grey w3-padding-large"
+            type="submit"
+          >
+            <i class="fa fa-paper-plane"></i> SEND MESSAGE
+          </button>
+        </p>
+      </form>
+      <!-- End Contact Section -->
+    </div>
 
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-
+    <!-- END PAGE CONTENT -->
   </body>
 </html>
